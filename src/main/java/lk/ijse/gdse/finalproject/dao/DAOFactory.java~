@@ -1,0 +1,25 @@
+package lk.ijse.gdse.finalproject.dao;
+
+import lk.ijse.gdse.finalproject.dao.custom.impl.*;
+
+public class DAOFactory {
+    private static DAOFactory daoFactory;
+    private DAOFactory(){}
+
+    public static DAOFactory getDaoFactory(){
+        return (daoFactory==null)?daoFactory
+                =new DAOFactory():daoFactory;
+    }
+    public enum DAOTypes{
+        BOOKED,BOOKING,BOOKING_DETAILS,CHOOSE_TRAINER,COURSES,INSTRUCTORS,LESSONS,MAINTAINERS,PAYMENT,PAYMENT_PLAN,SALARY,SETTING,SIGNIN,STUDENTS,VEHICLE
+    }
+    public SuperDAO getDAO(DAOTypes daoTypes){
+            switch(daoTypes){
+                case BOOKED:
+                    return new BookedDAOImpl();
+                default:
+                    return null;
+            }
+        }
+    }
+}

@@ -1,0 +1,4 @@
+package lk.ijse.gdse.finalproject.bo;
+
+public interface SigninBO {
+}
