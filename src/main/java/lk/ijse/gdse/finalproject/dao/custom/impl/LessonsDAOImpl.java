@@ -42,7 +42,7 @@ public class LessonsDAOImpl implements LessonsDAO {
     @Override
     public boolean update(Lessons entity) throws SQLException, ClassNotFoundException {
         return CrudUtil.execute(
-                "update training_lesson set time_period=?, stu_id=?, instruc_id=? where less_name=?",
+                "update training_lesson set time_period=?, student_id=?, instru_id=? where less_name=?",
                 entity.getTimePeriod(),
                 entity.getStudentId(),
                 entity.getInstructorId(),
