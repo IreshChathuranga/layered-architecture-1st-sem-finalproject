@@ -94,30 +94,6 @@ public class LoginController implements Initializable {
         }
     }
 
-
-
-
-        //        String sql = "select username, userpassword from signup where username = ?";
-//
-//        Connection connection = DBConnection.getInstance().getConnection();
-//        PreparedStatement preparedStatement = connection.prepareStatement(sql);
-//        preparedStatement.setObject(1, userName);
-//
-//        ResultSet resultSet = preparedStatement.executeQuery();
-//        if(resultSet.next()) {
-//            String dbPasssword = resultSet.getString(2);
-//
-//            if(dbPasssword.equals(userPassword)) {
-//                navigateToTheDashboard();
-//            } else {
-//                new Alert(Alert.AlertType.ERROR, "Password is incorrect!").show();
-//            }
-//        } else {
-//            new Alert(Alert.AlertType.INFORMATION, "username not found!").show();
-//        }
-
-
-
     private void navigateToTheDashboard() throws IOException {
         navigateTo("/view/HomePage.fxml");    }
 
