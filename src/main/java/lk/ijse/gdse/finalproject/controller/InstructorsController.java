@@ -10,9 +10,8 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.shape.Rectangle;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.InstructorsBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.InstructorsBOImpl;
-import lk.ijse.gdse.finalproject.model.InstructorsDto;
-import lk.ijse.gdse.finalproject.model.tm.InstructorsTM;
+import lk.ijse.gdse.finalproject.dto.InstructorsDto;
+import lk.ijse.gdse.finalproject.dto.tm.InstructorsTM;
 
 import java.net.URL;
 import java.sql.SQLException;

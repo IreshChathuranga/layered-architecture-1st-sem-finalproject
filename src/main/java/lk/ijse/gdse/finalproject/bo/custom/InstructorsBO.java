@@ -1,7 +1,7 @@
 package lk.ijse.gdse.finalproject.bo.custom;
 
 import lk.ijse.gdse.finalproject.bo.SuperBO;
-import lk.ijse.gdse.finalproject.model.InstructorsDto;
+import lk.ijse.gdse.finalproject.dto.InstructorsDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

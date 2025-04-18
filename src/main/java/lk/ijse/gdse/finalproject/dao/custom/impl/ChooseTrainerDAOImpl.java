@@ -2,7 +2,6 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.ChooseTrainerDAO;
 import lk.ijse.gdse.finalproject.entity.ChooseTrainer;
-import lk.ijse.gdse.finalproject.model.ChooseTrainerDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.SQLException;

@@ -3,9 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.StudentsBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.StudentsDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.StudentsDAOImpl;
 import lk.ijse.gdse.finalproject.entity.Students;
-import lk.ijse.gdse.finalproject.model.StudentsDto;
+import lk.ijse.gdse.finalproject.dto.StudentsDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

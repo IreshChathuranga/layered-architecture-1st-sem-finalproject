@@ -13,9 +13,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.BookedBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.BookedBOImpl;
-import lk.ijse.gdse.finalproject.model.BookedDto;
-import lk.ijse.gdse.finalproject.model.tm.BookedTM;
+import lk.ijse.gdse.finalproject.dto.BookedDto;
+import lk.ijse.gdse.finalproject.dto.tm.BookedTM;
 
 import java.io.IOException;
 import java.net.URL;

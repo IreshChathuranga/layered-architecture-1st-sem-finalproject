@@ -3,10 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.SalaryBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.SalaryDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.SalaryDAOImpl;
-import lk.ijse.gdse.finalproject.entity.PaymentPlan;
 import lk.ijse.gdse.finalproject.entity.Salary;
-import lk.ijse.gdse.finalproject.model.SalaryDto;
+import lk.ijse.gdse.finalproject.dto.SalaryDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

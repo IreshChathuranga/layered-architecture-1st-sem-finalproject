@@ -1,8 +1,5 @@
 package lk.ijse.gdse.finalproject.entity;
 
-import lk.ijse.gdse.finalproject.model.BookingDetailsDto;
-import lk.ijse.gdse.finalproject.model.ChooseTrainerDto;
-import lk.ijse.gdse.finalproject.model.LessonsDto;
 import lombok.*;
 
 import java.sql.Date;

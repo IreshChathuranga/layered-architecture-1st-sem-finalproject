@@ -3,10 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.SettingBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.SettingDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.SettingDAOImpl;
-import lk.ijse.gdse.finalproject.entity.Salary;
 import lk.ijse.gdse.finalproject.entity.Setting;
-import lk.ijse.gdse.finalproject.model.SettingDto;
+import lk.ijse.gdse.finalproject.dto.SettingDto;
 
 import java.sql.SQLException;
 

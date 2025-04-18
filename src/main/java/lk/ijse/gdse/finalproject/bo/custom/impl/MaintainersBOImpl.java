@@ -3,10 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.MaintainersBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.MaintainersDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.MaintainersDAOImpl;
-import lk.ijse.gdse.finalproject.entity.Lessons;
 import lk.ijse.gdse.finalproject.entity.Maintainers;
-import lk.ijse.gdse.finalproject.model.MaintainersDto;
+import lk.ijse.gdse.finalproject.dto.MaintainersDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

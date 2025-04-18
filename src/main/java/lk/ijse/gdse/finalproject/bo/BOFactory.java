@@ -8,6 +8,7 @@ public class BOFactory {
 
     }
     public static BOFactory getBoFactory(){
+
         return (boFactory==null)?boFactory=new BOFactory():boFactory;
     }
     public enum BOTypes{
@@ -47,4 +48,5 @@ public class BOFactory {
                 return null;
         }
     }
+
 }

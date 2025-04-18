@@ -4,7 +4,7 @@ import lk.ijse.gdse.finalproject.bo.custom.BookedBO;
 import lk.ijse.gdse.finalproject.dao.custom.BookedDAO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.entity.Booked;
-import lk.ijse.gdse.finalproject.model.BookedDto;
+import lk.ijse.gdse.finalproject.dto.BookedDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

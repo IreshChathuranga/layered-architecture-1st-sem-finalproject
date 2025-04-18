@@ -1,10 +1,8 @@
 package lk.ijse.gdse.finalproject.bo.custom;
 
 import lk.ijse.gdse.finalproject.bo.SuperBO;
-import lk.ijse.gdse.finalproject.model.SettingDto;
-import lk.ijse.gdse.finalproject.util.CrudUtil;
+import lk.ijse.gdse.finalproject.dto.SettingDto;
 
-import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public interface SettingBO extends SuperBO {

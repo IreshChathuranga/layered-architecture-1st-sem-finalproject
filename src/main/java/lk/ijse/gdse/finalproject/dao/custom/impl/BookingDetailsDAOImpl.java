@@ -2,7 +2,6 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.BookingDetailsDAO;
 import lk.ijse.gdse.finalproject.entity.BookingDetails;
-import lk.ijse.gdse.finalproject.model.BookingDetailsDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.SQLException;

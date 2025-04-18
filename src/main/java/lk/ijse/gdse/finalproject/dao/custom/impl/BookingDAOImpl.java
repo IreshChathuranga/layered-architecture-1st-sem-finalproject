@@ -4,12 +4,9 @@ import lk.ijse.gdse.finalproject.dao.custom.BookingDAO;
 import lk.ijse.gdse.finalproject.dao.custom.BookingDetailsDAO;
 import lk.ijse.gdse.finalproject.dao.custom.ChooseTrainerDAO;
 import lk.ijse.gdse.finalproject.dao.custom.LessonsDAO;
-import lk.ijse.gdse.finalproject.db.DBConnection;
 import lk.ijse.gdse.finalproject.entity.Booking;
-import lk.ijse.gdse.finalproject.model.BookingDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
-import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;

@@ -2,7 +2,6 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.PaymentDAO;
 import lk.ijse.gdse.finalproject.entity.Payment;
-import lk.ijse.gdse.finalproject.model.PaymentDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.ResultSet;

@@ -1,8 +1,7 @@
 package lk.ijse.gdse.finalproject.bo.custom;
 
 import lk.ijse.gdse.finalproject.bo.SuperBO;
-import lk.ijse.gdse.finalproject.model.SigninDto;
-import lk.ijse.gdse.finalproject.util.CrudUtil;
+import lk.ijse.gdse.finalproject.dto.SigninDto;
 
 import java.sql.SQLException;
 

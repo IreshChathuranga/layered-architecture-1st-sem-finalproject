@@ -11,8 +11,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.SigninBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.SigninBOImpl;
-import lk.ijse.gdse.finalproject.model.SigninDto;
+import lk.ijse.gdse.finalproject.dto.SigninDto;
 
 import java.io.IOException;
 import java.net.URL;

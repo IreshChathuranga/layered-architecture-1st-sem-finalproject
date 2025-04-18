@@ -9,9 +9,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.SalaryBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.SalaryBOImpl;
-import lk.ijse.gdse.finalproject.model.SalaryDto;
-import lk.ijse.gdse.finalproject.model.tm.SalaryTM;
+import lk.ijse.gdse.finalproject.dto.SalaryDto;
+import lk.ijse.gdse.finalproject.dto.tm.SalaryTM;
 
 import java.net.URL;
 import java.sql.Date;

@@ -13,9 +13,8 @@ import javafx.stage.Modality;
 import javafx.stage.Window;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.*;
-import lk.ijse.gdse.finalproject.bo.custom.impl.StudentsBOImpl;
-import lk.ijse.gdse.finalproject.model.StudentsDto;
-import lk.ijse.gdse.finalproject.model.tm.StudentsTM;
+import lk.ijse.gdse.finalproject.dto.StudentsDto;
+import lk.ijse.gdse.finalproject.dto.tm.StudentsTM;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
 

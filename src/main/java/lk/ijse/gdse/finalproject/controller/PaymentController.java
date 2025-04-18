@@ -11,10 +11,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.PaymentBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.PaymentBOImpl;
 import lk.ijse.gdse.finalproject.db.DBConnection;
-import lk.ijse.gdse.finalproject.model.PaymentDto;
-import lk.ijse.gdse.finalproject.model.tm.PaymentTM;
+import lk.ijse.gdse.finalproject.dto.PaymentDto;
+import lk.ijse.gdse.finalproject.dto.tm.PaymentTM;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.view.JasperViewer;
 

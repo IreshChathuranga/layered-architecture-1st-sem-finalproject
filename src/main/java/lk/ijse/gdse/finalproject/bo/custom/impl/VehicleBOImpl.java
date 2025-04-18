@@ -3,9 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.VehicleBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.VehicleDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.VehicleDAOImpl;
 import lk.ijse.gdse.finalproject.entity.Vehicle;
-import lk.ijse.gdse.finalproject.model.VehicleDto;
+import lk.ijse.gdse.finalproject.dto.VehicleDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

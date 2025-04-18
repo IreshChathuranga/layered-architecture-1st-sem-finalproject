@@ -9,9 +9,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.MaintainersBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.MaintainersBOImpl;
-import lk.ijse.gdse.finalproject.model.MaintainersDto;
-import lk.ijse.gdse.finalproject.model.tm.MaintainersTM;
+import lk.ijse.gdse.finalproject.dto.MaintainersDto;
+import lk.ijse.gdse.finalproject.dto.tm.MaintainersTM;
 
 import java.net.URL;
 import java.sql.SQLException;

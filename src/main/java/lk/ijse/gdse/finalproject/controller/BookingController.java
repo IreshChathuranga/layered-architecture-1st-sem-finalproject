@@ -11,20 +11,14 @@ import lk.ijse.gdse.finalproject.bo.custom.BookingBO;
 import lk.ijse.gdse.finalproject.bo.custom.InstructorsBO;
 import lk.ijse.gdse.finalproject.bo.custom.LessonsBO;
 import lk.ijse.gdse.finalproject.bo.custom.StudentsBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.BookingBOImpl;
-import lk.ijse.gdse.finalproject.bo.custom.impl.InstructorsBOImpl;
-import lk.ijse.gdse.finalproject.bo.custom.impl.LessonsBOImpl;
-import lk.ijse.gdse.finalproject.bo.custom.impl.StudentsBOImpl;
-import lk.ijse.gdse.finalproject.dao.DAOFactory;
-import lk.ijse.gdse.finalproject.dao.custom.BookedDAO;
 import lk.ijse.gdse.finalproject.dao.custom.impl.InstructorsDAOImpl;
 import lk.ijse.gdse.finalproject.dao.custom.impl.LessonsDAOImpl;
 import lk.ijse.gdse.finalproject.dao.custom.impl.StudentsDAOImpl;
 import lk.ijse.gdse.finalproject.entity.BookingDetails;
 import lk.ijse.gdse.finalproject.entity.ChooseTrainer;
 import lk.ijse.gdse.finalproject.entity.Lessons;
-import lk.ijse.gdse.finalproject.model.*;
-import lk.ijse.gdse.finalproject.model.tm.CartTM;
+import lk.ijse.gdse.finalproject.dto.*;
+import lk.ijse.gdse.finalproject.dto.tm.CartTM;
 
 import java.net.URL;
 import java.sql.Date;
@@ -51,10 +45,6 @@ public class BookingController implements Initializable {
     public ComboBox<String> cmbInstructor;
     public Label lblinstuName;
 
-    private final StudentsDAOImpl studentsModel = new StudentsDAOImpl();
-    private final InstructorsDAOImpl instructorsModel = new InstructorsDAOImpl();
-    private final LessonsDAOImpl lessonsModel = new LessonsDAOImpl();
-
     private final ObservableList<CartTM> cartTMS = FXCollections.observableArrayList();
     public TableColumn<CartTM, String> studentId;
     public TableColumn<CartTM, String> instructorId;
@@ -66,9 +56,10 @@ public class BookingController implements Initializable {
     public TableColumn<CartTM, String> timePeriod;
     public TableColumn<?, ?> action;
     public Button btnPlaceBooking;
-    InstructorsBO instructorsBO = (InstructorsBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.INSTRUCTORS);
+    InstructorsBO instructorsBO = (InstructorsBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.INSTRUCTORS);//loose coupling/The controller does not directly depend on the DAO layer.
     LessonsBO lessonsBO = (LessonsBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.LESSONS);
-    StudentsBO studentsBO = (StudentsBO)  BOFactory.getBoFactory().getBO(BOFactory.BOTypes.STUDENTS);
+    StudentsBO studentsBO = (StudentsBO)  BOFactory.getBoFactory().getBO(BOFactory.BOTypes.STUDENTS);//depency injection/Use of a factory (BOFactory) for object creation/dependency injection via the factory pattern
+
     BookingBO bookingBO = (BookingBO) BOFactory.getBoFactory().getBO(BOFactory.BOTypes.BOOKING);
     public void studentOnAction(ActionEvent actionEvent) throws SQLException, ClassNotFoundException {
         String selectedStudentId = cmbStudentId.getSelectionModel().getSelectedItem();

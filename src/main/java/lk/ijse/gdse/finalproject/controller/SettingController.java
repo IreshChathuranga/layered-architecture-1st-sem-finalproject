@@ -7,8 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.SettingBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.SettingBOImpl;
-import lk.ijse.gdse.finalproject.model.SettingDto;
+import lk.ijse.gdse.finalproject.dto.SettingDto;
 
 import java.net.URL;
 import java.sql.SQLException;

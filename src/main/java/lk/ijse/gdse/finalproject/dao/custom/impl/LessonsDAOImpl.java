@@ -2,7 +2,6 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.LessonsDAO;
 import lk.ijse.gdse.finalproject.entity.Lessons;
-import lk.ijse.gdse.finalproject.model.LessonsDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.ResultSet;

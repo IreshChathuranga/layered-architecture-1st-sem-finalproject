@@ -2,7 +2,6 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.BookedDAO;
 import lk.ijse.gdse.finalproject.entity.Booked;
-import lk.ijse.gdse.finalproject.model.BookedDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.ResultSet;

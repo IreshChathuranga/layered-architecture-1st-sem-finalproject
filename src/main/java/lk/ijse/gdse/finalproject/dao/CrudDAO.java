@@ -1,8 +1,5 @@
 package lk.ijse.gdse.finalproject.dao;
 
-import lk.ijse.gdse.finalproject.model.ChooseTrainerDto;
-import lk.ijse.gdse.finalproject.model.CoursesDto;
-
 import java.sql.SQLException;
 import java.util.ArrayList;
 

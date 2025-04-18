@@ -9,9 +9,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.CoursesBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.CoursesBOImpl;
-import lk.ijse.gdse.finalproject.model.CoursesDto;
-import lk.ijse.gdse.finalproject.model.tm.CoursesTM;
+import lk.ijse.gdse.finalproject.dto.CoursesDto;
+import lk.ijse.gdse.finalproject.dto.tm.CoursesTM;
 
 import java.net.URL;
 import java.sql.SQLException;

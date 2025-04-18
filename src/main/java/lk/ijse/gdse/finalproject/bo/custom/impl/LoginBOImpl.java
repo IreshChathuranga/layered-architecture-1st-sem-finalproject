@@ -4,7 +4,7 @@ import lk.ijse.gdse.finalproject.bo.custom.LoginBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.SigninDAO;
 import lk.ijse.gdse.finalproject.entity.Signin;
-import lk.ijse.gdse.finalproject.model.SigninDto;
+import lk.ijse.gdse.finalproject.dto.SigninDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

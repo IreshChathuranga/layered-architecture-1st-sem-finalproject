@@ -2,7 +2,6 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.VehicleDAO;
 import lk.ijse.gdse.finalproject.entity.Vehicle;
-import lk.ijse.gdse.finalproject.model.VehicleDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.ResultSet;

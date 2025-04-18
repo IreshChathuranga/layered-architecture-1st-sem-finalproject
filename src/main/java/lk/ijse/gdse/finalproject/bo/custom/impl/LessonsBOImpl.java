@@ -3,11 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.LessonsBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.LessonsDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.LessonsDAOImpl;
-import lk.ijse.gdse.finalproject.entity.Booked;
 import lk.ijse.gdse.finalproject.entity.Lessons;
-import lk.ijse.gdse.finalproject.model.BookedDto;
-import lk.ijse.gdse.finalproject.model.LessonsDto;
+import lk.ijse.gdse.finalproject.dto.LessonsDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

@@ -2,7 +2,7 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.StudentsDAO;
 import lk.ijse.gdse.finalproject.entity.Students;
-import lk.ijse.gdse.finalproject.model.StudentsDto;
+import lk.ijse.gdse.finalproject.dto.StudentsDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.ResultSet;
@@ -32,6 +32,7 @@ public class StudentsDAOImpl implements StudentsDAO {
                     rst.getString(1),
                     rst.getString(2),
                     rst.getDate(3),
+
                     rst.getString(4),
                     rst.getString(5),
                     rst.getDate(6),

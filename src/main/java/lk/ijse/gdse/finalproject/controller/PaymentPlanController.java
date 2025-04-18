@@ -9,9 +9,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.PaymentPlanBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.PaymentPlanBOImpl;
-import lk.ijse.gdse.finalproject.model.PaymentPlanDto;
-import lk.ijse.gdse.finalproject.model.tm.PaymentPlanTM;
+import lk.ijse.gdse.finalproject.dto.PaymentPlanDto;
+import lk.ijse.gdse.finalproject.dto.tm.PaymentPlanTM;
 
 import java.net.URL;
 import java.sql.SQLException;

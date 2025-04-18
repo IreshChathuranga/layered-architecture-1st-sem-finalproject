@@ -3,9 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.SigninBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.SigninDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.SigninDAOImpl;
 import lk.ijse.gdse.finalproject.entity.Signin;
-import lk.ijse.gdse.finalproject.model.SigninDto;
+import lk.ijse.gdse.finalproject.dto.SigninDto;
 
 import java.sql.SQLException;
 

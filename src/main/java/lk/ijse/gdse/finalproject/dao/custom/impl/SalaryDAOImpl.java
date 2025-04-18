@@ -2,7 +2,6 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.SalaryDAO;
 import lk.ijse.gdse.finalproject.entity.Salary;
-import lk.ijse.gdse.finalproject.model.SalaryDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.ResultSet;

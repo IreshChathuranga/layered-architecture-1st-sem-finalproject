@@ -1,8 +1,6 @@
 package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.SigninDAO;
-import lk.ijse.gdse.finalproject.entity.Instructors;
-import lk.ijse.gdse.finalproject.model.SigninDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 import lk.ijse.gdse.finalproject.entity.Signin;
 

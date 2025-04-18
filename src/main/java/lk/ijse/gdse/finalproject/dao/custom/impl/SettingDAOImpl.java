@@ -2,7 +2,7 @@ package lk.ijse.gdse.finalproject.dao.custom.impl;
 
 import lk.ijse.gdse.finalproject.dao.custom.SettingDAO;
 import lk.ijse.gdse.finalproject.entity.Setting;
-import lk.ijse.gdse.finalproject.model.SettingDto;
+import lk.ijse.gdse.finalproject.dto.SettingDto;
 import lk.ijse.gdse.finalproject.util.CrudUtil;
 
 import java.sql.ResultSet;

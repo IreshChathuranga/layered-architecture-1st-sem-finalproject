@@ -3,10 +3,8 @@ package lk.ijse.gdse.finalproject.bo.custom.impl;
 import lk.ijse.gdse.finalproject.bo.custom.PaymentPlanBO;
 import lk.ijse.gdse.finalproject.dao.DAOFactory;
 import lk.ijse.gdse.finalproject.dao.custom.PaymentPlanDAO;
-import lk.ijse.gdse.finalproject.dao.custom.impl.PaymentPlanDAOImpl;
-import lk.ijse.gdse.finalproject.entity.Payment;
 import lk.ijse.gdse.finalproject.entity.PaymentPlan;
-import lk.ijse.gdse.finalproject.model.PaymentPlanDto;
+import lk.ijse.gdse.finalproject.dto.PaymentPlanDto;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

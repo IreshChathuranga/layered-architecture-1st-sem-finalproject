@@ -9,9 +9,8 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import lk.ijse.gdse.finalproject.bo.BOFactory;
 import lk.ijse.gdse.finalproject.bo.custom.VehicleBO;
-import lk.ijse.gdse.finalproject.bo.custom.impl.VehicleBOImpl;
-import lk.ijse.gdse.finalproject.model.VehicleDto;
-import lk.ijse.gdse.finalproject.model.tm.VehicleTM;
+import lk.ijse.gdse.finalproject.dto.VehicleDto;
+import lk.ijse.gdse.finalproject.dto.tm.VehicleTM;
 
 import java.net.URL;
 import java.sql.SQLException;
